@@ -1,0 +1,235 @@
+{
+  "sha256": "0001eaa3e2045867d857e6b7c837f3476fb1f659fbe4eda9b1f25af15b132475",
+  "droidbox": {
+    "dexclass": [
+      {
+        "path": "/data/app/test.app-1.apk",
+        "pid": 848,
+        "time": 0.15248,
+        "processname": "test.app",
+        "tid": 1073870640
+      }
+    ],
+    "recvnet": [],
+    "phonecalls": [],
+    "fileswritten": [
+      {
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<boolean name=\"frst\" value=\"true\" />\n</map>\n",
+        "tid": 1073870640,
+        "time": 0.705283,
+        "processname": "test.app",
+        "pid": 848,
+        "name": "/data/data/test.app/shared_prefs/s.xml"
+      },
+      {
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<string name=\"3\">http://be-24.ru/ab.php</string>\n<boolean name=\"frst\" value=\"true\" />\n</map>\n",
+        "tid": 1073870640,
+        "time": 0.714656,
+        "processname": "test.app",
+        "pid": 848,
+        "name": "/data/data/test.app/shared_prefs/s.xml"
+      },
+      {
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<string name=\"3\">http://be-24.ru/ab.php</string>\n<long name=\"2\" value=\"3600000\" />\n<long name=\"1\" value=\"1426267215398\" />\n<boolean name=\"frst\" value=\"true\" />\n</map>\n",
+        "tid": 1073870640,
+        "time": 0.74504,
+        "processname": "test.app",
+        "pid": 848,
+        "name": "/data/data/test.app/shared_prefs/s.xml"
+      },
+      {
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<string name=\"3\">http://be-24.ru/ab.php</string>\n<long name=\"2\" value=\"3600000\" />\n<boolean name=\"frst\" value=\"true\" />\n</map>\n",
+        "tid": 1073870640,
+        "time": 0.725489,
+        "processname": "test.app",
+        "pid": 848,
+        "name": "/data/data/test.app/shared_prefs/s.xml"
+      }
+    ],
+    "dns": [],
+    "cryptousage": [],
+    "filesread": [
+      {
+        "data": "504b0506000000000e000e0091030000848902000000504b01021400140008000800317f3a48e4e806c7e3010000680300001400000000000000000000000000000000004d4554412d494e462f4d414e49464553542e4d46504b01021400140008000800317f3a48e058abf429020000e10300000f00000000000000000000000000250200004d4554412d494e462f4150502e5346504b01021400140008000800317f3a484b51bc16010400003804000010000000000000000000000000008b0400004d4554412d494e462f4150502e525341504b01021400140008000800317f3a481ee94f72400700009c1c00001300000000000000000000000000ca080000416e64726f69644d616e69666573742e786d6c504b01021400140008000800307f3a48a400fa298c020000f70a00001a000000000000000000000000004b1000006173736574732f68746d6c2f6373732f7374796c65732e637373504b01020a000a0000000000307f3a4800000000000000000000000011000000000000000000000000001f1300006173736574732f68746d6c2f656d707479504b01021400140008000800307f3a4827a84d47d6020000e404000014000000000000000000000000004e1300006173736574732f68746d6c2f656e642e68746d6c504b01020a000a0000000000307f3a489901f94cc8dd0000c8dd00001b000000000000",
+        "tid": 1073870640,
+        "time": 0.203389,
+        "processname": "test.app",
+        "pid": 848,
+        "name": "/data/app/test.app-1.apk"
+      },
+      {
+        "data": "MemTotal:         604776 kB\nMemFree:          345952 kB\nBuffers:               0 kB\nCached:           132388 kB\nSwapCached:            0 kB\nActive:           142080 kB\nInactive:          97904 kB\nActive(anon):     113660 kB\nInactive(anon):        0 kB\nActive(file):      28420 kB\nInactive(file):    97904 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:                20 kB\nWriteback:             0 kB\nAnonPages:        107608 kB\nMapped:            50624 kB\nSlab:               6164 kB\nSReclaimable:       1620 kB\nSUnreclaim:         4544 kB\nPageTables:         5408 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      302388 kB\nCommitted_AS:    2579032 kB\nVmallocTotal:     360448 kB\nVmallocUsed:       28724 kB\nVmallocChunk:     322564 kB\n",
+        "tid": 1073870640,
+        "time": 2.175701,
+        "processname": "test.app",
+        "pid": 848,
+        "name": "/proc/meminfo"
+      }
+    ],
+    "sendsms": [],
+    "servicestart": [
+      {
+        "time": 1.242563,
+        "name": "delete.off.AdminService",
+        "pid": 848,
+        "processname": "test.app",
+        "tid": 1073870640
+      }
+    ],
+    "sendnet": [],
+    "libraries": []
+  },
+  "cuckoo": {
+    "target": {
+      "file": {
+        "md5": "a0e444d3ef04aa43ff39cd37902771ff",
+        "sha512": "7e701cf64e3ca3987f6fa2049f27da537d8f9e17cbc6d49b0d51b19951c2d1d6fa4ae420e61d892477ec540c8d68a23fab500e5dbc327ac881c849b4c6e21bec",
+        "sha256": "0001eaa3e2045867d857e6b7c837f3476fb1f659fbe4eda9b1f25af15b132475",
+        "ssdeep": "3072:QA/eRDf/cNMGKLRhb9DPhnbhimtHikOXqfO3anGNm5AJR1uoaGQ2kYTKW1Qd:QAmVENUn9DRd1CxafOcG2A/LTI",
+        "crc32": "9BD3CC7D",
+        "sha1": "be6d92e12dfcf83cfcaba4750e63398bd3b4bd2e",
+        "size": 167211
+      },
+      "category": "file"
+    },
+    "network": {
+      "irc": [],
+      "domains": [],
+      "dns": [],
+      "hosts": [],
+      "smtp": [],
+      "http": []
+    }
+  },
+  "androguard": {
+    "urls": [
+      "http://be-24.ru/ab.php"
+    ],
+    "functionalities": {
+      "imsi": [
+        {
+          "method": "getModemValue",
+          "class": "Ltest/app/Settings;",
+          "code": "invoke-virtual v1, Landroid/telephony/TelephonyManager;->getSubscriberId()Ljava/lang/String;"
+        }
+      ],
+      "imei": [
+        {
+          "method": "getModemValue",
+          "class": "Ltest/app/Settings;",
+          "code": "invoke-virtual v1, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;"
+        }
+      ],
+      "dynamicbroadcastreceiver": [
+        {
+          "method": "onCreate",
+          "class": "Ltest/app/MainApp;",
+          "code": "invoke-virtual v3, v4, v1, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;"
+        },
+        {
+          "method": "onBind",
+          "class": "Ltest/app/USSDService;",
+          "code": "invoke-virtual v2, v1, v0, Ltest/app/USSDService;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;"
+        }
+      ],
+      "phonenumber": [
+        {
+          "method": "getModemValue",
+          "class": "Ltest/app/Settings;",
+          "code": "invoke-virtual v1, Landroid/telephony/TelephonyManager;->getLine1Number()Ljava/lang/String;"
+        }
+      ],
+      "phonecall": [
+        {
+          "method": "makeCall",
+          "class": "Ltest/app/Settings;",
+          "code": "const-string v1, 'android.intent.action.CALL'"
+        }
+      ],
+      "SMS": [
+        {
+          "method": "sendSms",
+          "class": "Ltest/app/Settings;",
+          "code": "invoke-virtual/range v0 ... v5, Landroid/telephony/SmsManager;->sendMultipartTextMessage(Ljava/lang/String; Ljava/lang/String; Ljava/util/ArrayList; Ljava/util/ArrayList; Ljava/util/ArrayList;)V"
+        }
+      ],
+      "socket": [
+        {
+          "method": "downloadFile",
+          "class": "Ltest/app/InstallService;",
+          "code": "invoke-virtual v11, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+        }
+      ]
+    },
+    "cordova": null,
+    "permissions": [
+      "android.permission.SEND_SMS",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.READ_PHONE_STATE",
+      "android.permission.INSTALL_PACKAGES",
+      "android.permission.PROCESS_OUTGOING_CALLS",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.GET_TASKS",
+      "android.permission.CALL_PHONE",
+      "android.permission.RECEIVE_SMS",
+      "android.permission.INTERNET",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.CALL_PRIVILEGED"
+    ],
+    "services": [
+      "test.app.MainService",
+      "test.app.InstallService",
+      "delete.off.AdminService",
+      "test.app.USSDService"
+    ],
+    "displayed_version": "7.0",
+    "dexes": {
+      "classes": {
+        "sha256": "a03463dfd2ede31a0a68fa12ea92d4d885f67ea38e4b0590b8408d7ed15787d5",
+        "ssdeep": "1536:UIe98ZLv6zTzz3gjT3kmEev1gddCsnfvwBQwYiBzK/yrSwZLZ5vgk:rZLv6zHz3yT3kmEkg3CsnQBwiBzJl/H"
+      }
+    },
+    "min_sdk_version": 4,
+    "certificate": {
+      "not_before": "Aug 9 20:23:09 2014 GMT",
+      "serial": "5C4316B2",
+      "subjectDN": "/CN=app",
+      "issuerDN": "/CN=app",
+      "not_after": "Aug 3 20:23:09 2039 GMT",
+      "sha1": "405E03DF2194D1BC0DDBFF8057F634B5C40CC2BD"
+    },
+    "max_sdk_version": null,
+    "filters": [
+      "android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED",
+      "android.intent.action.PHONE_STATE",
+      "android.app.action.DEVICE_ADMIN_DISABLED",
+      "android.provider.Telephony.SMS_RECEIVED",
+      "android.intent.action.NEW_OUTGOING_CALL",
+      "android.intent.action.BOOT_COMPLETED",
+      "android.app.action.DEVICE_ADMIN_ENABLED",
+      "android.intent.action.MAIN",
+      "android.intent.action.USER_PRESENT"
+    ],
+    "new_permissions": [],
+    "providers": [],
+    "package_name": "test.app",
+    "app_name": "BZcheat",
+    "version_code": "7",
+    "libraries": [],
+    "target_sdk_version": 18,
+    "api_key": {},
+    "activities": [
+      "delete.off.AdminActivity",
+      "test.app.MainActivity"
+    ],
+    "main_activity": "test.app.MainActivity",
+    "receivers": [
+      "delete.off.AdminReceiver",
+      "delete.off.MainReceiver",
+      "test.app.MainReceiver"
+    ],
+    "signature_name": "META-INF/APP.RSA"
+  },
+  "status": "analyzed"
+}

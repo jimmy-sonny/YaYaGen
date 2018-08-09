@@ -1,0 +1,422 @@
+{
+  "sha256": "0003ba3088d1421744dc12fa379d587ad8c24e88a0ef2fb505e7222a0bb1df90",
+  "droidbox": {
+    "dexclass": [
+      {
+        "path": "/data/app/trofimsergejtrofimovmoskovskayapesnyamp.html.app-1.apk",
+        "pid": 847,
+        "time": 0.000347,
+        "processname": "trofimsergejtrofimovmoskovskayapesnyamp.html.app",
+        "tid": 1073870640
+      }
+    ],
+    "recvnet": [],
+    "phonecalls": [],
+    "fileswritten": [
+      {
+        "data": "9sD19ocjJSnrqoGAqHwXKuOs3WwbWQ_qm3gCeWiZZH5WzYH0K_wABsJc2KsT6jKcMW4c5LD4MUsPVODrUQxWrKrYfPs0fW9WeDTdfhTYxnrnLzDBZPAAieufyujkavTaPk3L8J71vba4HbSUZjkmcKAtsoMX6b7avdOeL5IJXNR2eB4kCO8p34ox0X3YI0RKXDg1kCHv-UD2HBgR21F53PsPtdAsHdZENsQH3LqKn0nIDi10ZfzCXqG0k14FpEdmcwE4aF7xHtj_brVhsSOqqxpdtgyyBeqQrAjqLh0fJTDA_kXoV9REf2Chfeq3ATwp6huze2RwGxDepP4qCzGJQ_82zwCCvCv77pdN-xO8poRBUcb2uro=",
+        "tid": 1073870640,
+        "time": 1.001717,
+        "processname": "trofimsergejtrofimovmoskovskayapesnyamp.html.app",
+        "pid": 847,
+        "name": "/data/data/trofimsergejtrofimovmoskovskayapesnyamp.html.app/files/settings"
+      },
+      {
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<string name=\"internet_connection_availible\">0</string>\n</map>\n",
+        "tid": 705835240,
+        "time": 3.872715,
+        "processname": "trofimsergejtrofimovmoskovskayapesnyamp.html.app",
+        "pid": 847,
+        "name": "/data/data/trofimsergejtrofimovmoskovskayapesnyamp.html.app/shared_prefs/WebSettings.xml"
+      },
+      {
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<string name=\"general_sms_index\">0</string>\n<string name=\"internet_connection_availible\">0</string>\n</map>\n",
+        "tid": 705835240,
+        "time": 5.672514,
+        "processname": "trofimsergejtrofimovmoskovskayapesnyamp.html.app",
+        "pid": 847,
+        "name": "/data/data/trofimsergejtrofimovmoskovskayapesnyamp.html.app/shared_prefs/WebSettings.xml"
+      },
+      {
+        "data": "ffBVxXVj5AcKcmkGj9bZdZKp9j5Yy5o42_YlEgXQ6mp1BkiIkbVBZko5aGeCe4_aFARNGMjoQIx4OA3qYyih22kfqpAcPUSmffEtaM8WbsXx42xIZyAXimqZuV1ewZ3tiRPWS_s8ZvWsgVN0mHKABJbGiGvmeLGYRGJgZo9pT7SZuUpTzz-_T7f56VHPWute4vUi7K2-n10y-JElfSUgzXRmZ_A5I3eEWxSnZeL4ecDlHsrDmRqbXnvtivf4fSYCQKGwCZjcM-A4-0FzLdoRAsTtfnw3-56Qpf-F2YM5xboLc0mXFMoGCQ8G_dKN1ZR88gQwH-As_4buRYLO3VNBwFhEsb9ogvNX9OxX0y-82F2on-Idfn0=",
+        "tid": 1073870640,
+        "time": 0.892331,
+        "processname": "trofimsergejtrofimovmoskovskayapesnyamp.html.app",
+        "pid": 847,
+        "name": "/data/data/trofimsergejtrofimovmoskovskayapesnyamp.html.app/files/settings"
+      }
+    ],
+    "dns": [],
+    "cryptousage": [],
+    "filesread": [
+      {
+        "data": "MemTotal:         604776 kB\nMemFree:          347556 kB\nBuffers:               0 kB\nCached:           131176 kB\nSwapCached:            0 kB\nActive:           140276 kB\nInactive:          98220 kB\nActive(anon):     111592 kB\nInactive(anon):        0 kB\nActive(file):      28684 kB\nInactive(file):    98220 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:                 0 kB\nWriteback:             0 kB\nAnonPages:        107352 kB\nMapped:            49052 kB\nSlab:               6144 kB\nSReclaimable:       1608 kB\nSUnreclaim:         4536 kB\nPageTables:         5416 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      302388 kB\nCommitted_AS:    2576636 kB\nVmallocTotal:     360448 kB\nVmallocUsed:       28724 kB\nVmallocChunk:     322564 kB\n",
+        "tid": 1073870640,
+        "time": 1.825475,
+        "processname": "trofimsergejtrofimovmoskovskayapesnyamp.html.app",
+        "pid": 847,
+        "name": "/proc/meminfo"
+      },
+      {
+        "data": "504b0506000000002f002f006e0d0000de1206000000504b01021400140008000800edaea244c4590529ca050000280e00001400000000000000000000000000000000004d4554412d494e462f4d414e49464553542e4d46504b01021400140008000800edaea24471dfdc9121060000a10e000011000000000000000000000000000c0600004d4554412d494e462f4d594b45592e5346504b01021400140008000800edaea244c168f889fd0200002c04000012000000000000000000000000006c0c00004d4554412d494e462f4d594b45592e445341504b01021400140008000800edaea24423a5097c4a1200003a4000001e00000000000000000000000000a90f00006173736574732f68746d6c2f6a732f697363726f6c6c2d6c6974652e6a73504b01021400140008000800edaea2443c72e0dbbe0e00004131000022000000000000000000000000003f2200006173736574732f68746d6c2f6a732f697363726f6c6c2d6c6974652e6d696e2e6a73504b01020a000a0000000000edaea244b5aae7898a0f00008a0f000025000000000000000000000000004d3100006173736574732f68746d6c2f6d69646c65745f696d672f33393034332e686967682e706e67504b01020a000a0000000000edaea244c8efc416801300008013000025000000000000000000000000001a4100006173736574732f68746d6c2f",
+        "tid": 1073870640,
+        "time": 0.483298,
+        "processname": "trofimsergejtrofimovmoskovskayapesnyamp.html.app",
+        "pid": 847,
+        "name": "/data/app/trofimsergejtrofimovmoskovskayapesnyamp.html.app-1.apk"
+      },
+      {
+        "data": "d51165b96eb44588571888e461e080587d15db4d",
+        "tid": 1073870640,
+        "time": 0.992374,
+        "processname": "trofimsergejtrofimovmoskovskayapesnyamp.html.app",
+        "pid": 847,
+        "name": "/dev/urandom"
+      },
+      {
+        "data": "00000000000000000000b0f2bc8184d53070604b447dff9120b7bbfed6aa",
+        "tid": 1073870640,
+        "time": 0.665867,
+        "processname": "trofimsergejtrofimovmoskovskayapesnyamp.html.app",
+        "pid": 847,
+        "name": "/data/app/trofimsergejtrofimovmoskovskayapesnyamp.html.app-1.apk"
+      },
+      {
+        "data": "504b0506000000002f002f006e0d0000de1206000000504b01021400140008000800edaea244c4590529ca050000280e00001400000000000000000000000000000000004d4554412d494e462f4d414e49464553542e4d46504b01021400140008000800edaea24471dfdc9121060000a10e000011000000000000000000000000000c0600004d4554412d494e462f4d594b45592e5346504b01021400140008000800edaea244c168f889fd0200002c04000012000000000000000000000000006c0c00004d4554412d494e462f4d594b45592e445341504b01021400140008000800edaea24423a5097c4a1200003a4000001e00000000000000000000000000a90f00006173736574732f68746d6c2f6a732f697363726f6c6c2d6c6974652e6a73504b01021400140008000800edaea2443c72e0dbbe0e00004131000022000000000000000000000000003f2200006173736574732f68746d6c2f6a732f697363726f6c6c2d6c6974652e6d696e2e6a73504b01020a000a0000000000edaea244b5aae7898a0f00008a0f000025000000000000000000000000004d3100006173736574732f68746d6c2f6d69646c65745f696d672f33393034332e686967682e706e67504b01020a000a0000000000edaea244c8efc416801300008013000025000000000000000000000000001a4100006173736574732f68746d6c2f",
+        "tid": 1073870640,
+        "time": 0.006335,
+        "processname": "trofimsergejtrofimovmoskovskayapesnyamp.html.app",
+        "pid": 847,
+        "name": "/data/app/trofimsergejtrofimovmoskovskayapesnyamp.html.app-1.apk"
+      }
+    ],
+    "sendsms": [],
+    "servicestart": [],
+    "sendnet": [],
+    "libraries": []
+  },
+  "cuckoo": {
+    "target": {
+      "file": {
+        "md5": "2825947904f58cee8ab6fedc3f89355a",
+        "sha512": "5d2873905dbebf1ffa1310b2503727af38ca396b4142f0ea730e819b8fc4af21c128b0501336dbe1c30beb568924d4840abd6228bdf83387993bc6bc9c2695c8",
+        "sha256": "0003ba3088d1421744dc12fa379d587ad8c24e88a0ef2fb505e7222a0bb1df90",
+        "ssdeep": "6144:RdjqxZbrfmw6JGym7CXLcYPu8T67V4y47MC9ZjJ5Su4KudLocnKxuHYn4rt0Wgo3:RlmZ3fmnkymeRuo6ZKoC3NaBn9U4rt00",
+        "crc32": "8417316B",
+        "sha1": "7d6783a6dec6c776a7366a82ded8e85732e9b543",
+        "size": 401506
+      },
+      "category": "file"
+    },
+    "network": {
+      "irc": [],
+      "domains": [
+        {
+          "domain": "statcheck.info",
+          "ip": ""
+        }
+      ],
+      "dns": [
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        },
+        {
+          "answers": [],
+          "request": "statcheck.info",
+          "type": "A"
+        }
+      ],
+      "hosts": [],
+      "smtp": [],
+      "http": []
+    }
+  },
+  "androguard": {
+    "urls": [
+      "http://moby-aa.ru/api/ads2?d=1"
+    ],
+    "functionalities": {
+      "imsi": [
+        {
+          "method": "f",
+          "class": "Lh/h/d;",
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getSubscriberId()Ljava/lang/String;"
+        }
+      ],
+      "imei": [
+        {
+          "method": "h",
+          "class": "Lh/h/d;",
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;"
+        }
+      ],
+      "dynamicbroadcastreceiver": [
+        {
+          "method": "c",
+          "class": "Lh/h/d;",
+          "code": "invoke-virtual v7, v3, v4, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;"
+        },
+        {
+          "method": "onCreate",
+          "class": "Ls/s/HSc;",
+          "code": "invoke-virtual v2, v1, v0, Ls/s/HSc;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;"
+        }
+      ],
+      "phonenumber": [
+        {
+          "method": "i",
+          "class": "Lh/h/d;",
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getLine1Number()Ljava/lang/String;"
+        }
+      ],
+      "mcc": [
+        {
+          "method": "e",
+          "class": "Lh/h/d;",
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getNetworkOperator()Ljava/lang/String;"
+        }
+      ],
+      "SMS": [
+        {
+          "method": "b",
+          "class": "Lh/h/d;",
+          "code": "invoke-virtual/range v0 ... v5, Landroid/telephony/SmsManager;->sendTextMessage(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Landroid/app/PendingIntent; Landroid/app/PendingIntent;)V"
+        }
+      ],
+      "socket": [
+        {
+          "method": "a",
+          "class": "Lh/h/d;",
+          "code": "invoke-virtual v0, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+        },
+        {
+          "method": "a",
+          "class": "Ls/s/c;",
+          "code": "invoke-virtual v0, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;"
+        }
+      ]
+    },
+    "cordova": null,
+    "permissions": [
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.SEND_SMS",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.INTERNET",
+      "android.permission.INSTALL_PACKAGES",
+      "com.android.launcher.permission.INSTALL_SHORTCUT",
+      "android.permission.PROCESS_OUTGOING_CALLS",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.GET_TASKS",
+      "android.permission.CALL_PHONE",
+      "android.permission.DELETE_PACKAGES",
+      "android.permission.RECEIVE_SMS",
+      "android.permission.READ_PHONE_STATE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_CONTACTS"
+    ],
+    "services": [
+      "s.s.HSc",
+      "s.s.MS"
+    ],
+    "displayed_version": "1.0",
+    "dexes": {
+      "classes": {
+        "sha256": "b396e0ae18b1dbfe156a250e14281a30869164416f106c36c886c6629d6e0c5a",
+        "ssdeep": "3072:WjaWaJz4lf9dxRMg44eVp1Ztd1nxT9lDG/ms+DNstqlW69fpKI0GJq3DxTD:WjLiBd1x7AyW8lJfIT7Dt"
+      }
+    },
+    "min_sdk_version": null,
+    "certificate": {
+      "not_before": "May 2 14:25:23 2014 GMT",
+      "serial": "5363AAD3",
+      "subjectDN": "/C=UK/ST=Portland/L=Portland/O=Whiskey co/OU=Whiskey co/CN=John Walker",
+      "issuerDN": "/C=UK/ST=Portland/L=Portland/O=Whiskey co/OU=Whiskey co/CN=John Walker",
+      "not_after": "Apr 29 14:25:23 2024 GMT",
+      "sha1": "7A49B5FA0ACFE10A3C661B3117C9F2CD4CEFC6B1"
+    },
+    "max_sdk_version": null,
+    "filters": [
+      "android.intent.action.PHONE_STATE",
+      "android.provider.Telephony.SMS_RECEIVED",
+      "android.intent.action.NEW_OUTGOING_CALL",
+      "android.intent.action.BOOT_COMPLETED",
+      "android.intent.action.MAIN",
+      "android.intent.action.USER_PRESENT"
+    ],
+    "new_permissions": [],
+    "providers": [],
+    "package_name": "trofimsergejtrofimovmoskovskayapesnyamp.html.app",
+    "app_name": "Трофим-(Сергей-Трофимов) - Московская-песня",
+    "version_code": "1",
+    "libraries": [],
+    "target_sdk_version": null,
+    "api_key": {},
+    "activities": [
+      "h.h.MainActivity"
+    ],
+    "main_activity": "h.h.MainActivity",
+    "receivers": [
+      "h.h.SmsReciver",
+      "s.s.SRc",
+      "s.s.ArnRc",
+      "h.h.OutgoingCallDetection",
+      "h.h.AlarmReceiver",
+      "s.s.AlrmRc"
+    ],
+    "signature_name": "META-INF/MYKEY.DSA"
+  },
+  "status": "analyzed"
+}

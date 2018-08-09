@@ -1,0 +1,6 @@
+humanfriendly==4.8
+coloredlogs==9.0
+pyjq==2.1.0
+tldextract==2.2.0
+editdistance==0.4
+

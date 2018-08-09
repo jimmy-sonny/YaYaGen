@@ -1,0 +1,62 @@
+{
+  "FUNCTIONALITIES": [
+    "accounts",
+    "ads",
+    "browser_history",
+    "camera",
+    "crypto",
+    "dynamicbroadcastreceiver",
+    "iccid",
+    "imei",
+    "imsi",
+    "installedapplications",
+    "mcc",
+    "MMS",
+    "phonenumber",
+    "runbinary",
+    "sensor",
+    "serialno",
+    "SMS",
+    "socket",
+    "ssl"
+  ],
+  "FUNCTIONALITIES_XPATH_PATTERNS": [
+    "[.androguard.functionalities.FUNCTIONALITY[].method]",
+    "[.androguard.functionalities.FUNCTIONALITY[].class]",
+    "[.androguard.functionalities.FUNCTIONALITY[].code]"
+  ],
+  "FUNCTIONALITY_CONVERSION_KEYWORDS": {
+    "MMS": "mms",
+    "SMS": "sms",
+    "accounts": "account",
+    "browser_history": "browser",
+    "dynamicbroadcastreceiver": "dynamic_broadcast",
+    "installedapplications": "installed_app",
+    "phonenumber": "phone_number",
+    "runbinary": "run_binary"
+  },
+  "XPATH_NUMERIC_PATTERNS": {
+    ".androguard.activities": "androguard.number_of_activities",
+    ".androguard.filters": "androguard.number_of_filters",
+    ".androguard.permissions": "androguard.number_of_permissions",
+    ".androguard.providers": "androguard.number_of_providers",
+    ".androguard.receivers": "androguard.number_of_receivers",
+    ".androguard.services": "androguard.number_of_services"
+  },
+  "XPATH_PATTERNS": {
+    ".androguard.activities": "androguard.activity",
+    ".androguard.app_name": "androguard.app_name",
+    ".androguard.certificate.sha1": "androguard.certificate.sha1",
+    ".androguard.displayed_version": "androguard.displayed_version",
+    ".androguard.filters": "androguard.filter",
+    ".androguard.main_activity": "androguard.main_activity",
+    ".androguard.package_name": "androguard.package_name",
+    ".androguard.permissions": "androguard.permission",
+    ".androguard.providers": "androguard.provider",
+    ".androguard.receivers": "androguard.receiver",
+    ".androguard.services": "androguard.service",
+    ".androguard.urls": "androguard.url",
+    "[.cuckoo.network.dns[].request]": "cuckoo.network.dns_lookup",
+    "[.cuckoo.network.http[].uri]": "cuckoo.network.http_request"
+  }
+}

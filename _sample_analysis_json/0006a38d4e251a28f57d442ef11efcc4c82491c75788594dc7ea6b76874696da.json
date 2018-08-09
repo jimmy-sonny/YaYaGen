@@ -1,0 +1,919 @@
+{
+  "status": "analyzed",
+  "androguard": {
+    "signature_name": "META-INF/ZZW.RSA",
+    "receivers": [
+      "com.bx.pay.SmsListener",
+      "com.snowfish.a.a.s.ABFlt",
+      "com.zhifu.receiver.AppReceiver",
+      "com.yongrun.app.sxmn.broadcastreceiver.AppAddReceiver"
+    ],
+    "main_activity": "com.snowfish.cn.ganga.offline.helper.SFGameSplashActivity",
+    "activities": [
+      "com.yongrun.app.sxmn.ui.Activity_Detail",
+      "com.payeco.android.plugin.PayecoRiskControlActivity",
+      "com.yongrun.app.sxmn.ui.Activity_Classify",
+      "com.yongrun.app.sxmn.ui.Activity_BootImg",
+      "com.payeco.android.plugin.PayecoWebViewActivity",
+      "com.upay.billing.engine.alipay.AlipayActivity",
+      "com.upay.billing.UpayActivity",
+      "com.payeco.android.plugin.PayecoPluginLoadingActivity",
+      "com.yongrun.app.sxmn.ui.Activity_Boot",
+      "com.yongrun.app.sxmn.ui.Activity_Main",
+      "com.example.sdktest.MainActivity",
+      "com.yongrun.app.sxmn.ui.Activity_Deal",
+      "com.yongrun.app.sxmn.ui.Activity_Player",
+      "com.upay.billing.engine.tenpay.TenpayActivity",
+      "com.yongrun.app.sxmn.ui.Activity_Setting",
+      "com.payeco.android.plugin.PayecoPayResultActivity",
+      "com.yongrun.app.sxmn.ui.Activity_Collect",
+      "com.yongrun.app.sxmn.ui.Activity_Suggest",
+      "com.payeco.android.plugin.PayecoOrderDetailActivity",
+      "com.yongrun.app.sxmn.ui.Activity_Search",
+      "com.snowfish.cn.ganga.offline.helper.SFGameSplashActivity",
+      "com.snowfish.a.a.s.PA",
+      "com.yongrun.app.sxmn.ui.Activity_About"
+    ],
+    "api_key": {
+      "com::snowfish::appid": "{DEB07441-7F3C6194}",
+      "com::snowfish::sdk::version": "1"
+    },
+    "target_sdk_version": 19,
+    "libraries": [],
+    "min_sdk_version": 9,
+    "dexes": {
+      "classes": {
+        "ssdeep": "49152:XQfVg/Hs/sGWmHCgcqxkqGwFkg+THBxodeiKFaK0JUm7IXR3:O8",
+        "sha256": "57be3da9e64b287051b7566b2ae0ad7d78f4fcedab79beaa1eeb049d8ae3a4e4"
+      }
+    },
+    "displayed_version": "1.0",
+    "services": [
+      "com.yongrun.app.sxmn.service.Service_SaveBrief2DB",
+      "com.yongrun.app.sxmn.service.Service_Update",
+      "com.upay.billing.sdk.LocalService",
+      "com.snowfish.a.a.s.ABGSvc",
+      "com.bx.pay.WpaySmsService",
+      "com.yongrun.app.sxmn.service.Service_BindApp",
+      "com.zhifu.service.AppService"
+    ],
+    "permissions": [
+      "android.permission.CHANGE_NETWORK_STATE",
+      "android.permission.WRITE_APN_SETTINGS",
+      "android.permission.ACCESS_COARSE_LOCATION",
+      "android.permission.INTERNET",
+      "android.permission.CHANGE_CONFIGURATION",
+      "android.permission.ACCESS_FINE_LOCATION",
+      "android.permission.SEND_SMS",
+      "com.android.launcher.permission.INSTALL_SHORTCUT",
+      "android.permission.WRITE_SMS",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.GET_TASKS",
+      "android.permission.WRITE_SECURE_SETTINGS",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.RECEIVE_BOOT_COMPLETED",
+      "android.permission.INSTALL_PACKAGES",
+      "android.permission.WRITE_SETTINGS",
+      "android.permission.READ_PHONE_STATE",
+      "android.permission.READ_SMS",
+      "android.permission.VIBRATE",
+      "android.permission.SYSTEM_ALERT_WINDOW",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.RECEIVE_MMS",
+      "android.permission.WAKE_LOCK",
+      "android.permission.CHANGE_WIFI_STATE",
+      "android.permission.RECEIVE_SMS",
+      "android.permission.MODIFY_PHONE_STATE",
+      "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+      "android.permission.RESTART_PACKAGES"
+    ],
+    "cordova": null,
+    "functionalities": {
+      "imei": [
+        {
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;",
+          "class": "Lcom/yongrun/app/sxmn/common/e;",
+          "method": "a"
+        },
+        {
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;",
+          "class": "Lcom/upay/billing/UpayContext;",
+          "method": "<init>"
+        },
+        {
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;",
+          "class": "Lcom/upay/billing/utils/Util;",
+          "method": "getUser"
+        }
+      ],
+      "dynamicbroadcastreceiver": [
+        {
+          "code": "invoke-virtual v0, v1, v2, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;",
+          "class": "Landroid/support/v4/media/TransportMediatorJellybeanMR2;",
+          "method": "windowAttached"
+        },
+        {
+          "code": "invoke-virtual v0, v1, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V",
+          "class": "Landroid/support/v4/media/TransportMediatorJellybeanMR2;",
+          "method": "windowDetached"
+        },
+        {
+          "code": "invoke-virtual v6, v0, v2, Lcom/upay/billing/UpayActivity;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;",
+          "class": "Lcom/upay/billing/UpayActivity;",
+          "method": "onCreate"
+        }
+      ],
+      "phonenumber": [
+        {
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getLine1Number()Ljava/lang/String;",
+          "class": "Lcom/bx/pay/a/d;",
+          "method": "a"
+        }
+      ],
+      "imsi": [
+        {
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getSubscriberId()Ljava/lang/String;",
+          "class": "Lcom/upay/billing/UpayContext;",
+          "method": "<init>"
+        },
+        {
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getSubscriberId()Ljava/lang/String;",
+          "class": "Lcom/upay/billing/utils/Util;",
+          "method": "getUser"
+        },
+        {
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getSubscriberId()Ljava/lang/String;",
+          "class": "Lcom/upay/billing/utils/m;",
+          "method": "onSuccess"
+        }
+      ],
+      "runbinary": [
+        {
+          "code": "invoke-static Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;",
+          "class": "Lcom/yongrun/app/sxmn/service/Service_BindApp;",
+          "method": "a"
+        },
+        {
+          "code": "invoke-virtual v2, v3, Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;",
+          "class": "Lcom/yongrun/app/sxmn/service/Service_BindApp;",
+          "method": "a"
+        },
+        {
+          "code": "invoke-static Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;",
+          "class": "Lcom/yongrun/app/sxmn/common/e;",
+          "method": "a"
+        }
+      ],
+      "iccid": [
+        {
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getSimSerialNumber()Ljava/lang/String;",
+          "class": "Lcom/upay/billing/UpayContext;",
+          "method": "<init>"
+        },
+        {
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getSimSerialNumber()Ljava/lang/String;",
+          "class": "Lcom/upay/billing/utils/Util;",
+          "method": "getUser"
+        },
+        {
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getSimSerialNumber()Ljava/lang/String;",
+          "class": "Lcom/upay/billing/utils/m;",
+          "method": "onSuccess"
+        }
+      ],
+      "socket": [
+        {
+          "code": "invoke-virtual v0, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+          "class": "Lcom/yongrun/app/sxmn/a;",
+          "method": "a"
+        },
+        {
+          "code": "invoke-virtual v0, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+          "class": "Lcom/yongrun/app/sxmn/common/b;",
+          "method": "a"
+        },
+        {
+          "code": "invoke-virtual v0, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;",
+          "class": "Lcom/yongrun/app/sxmn/common/e;",
+          "method": "a"
+        }
+      ],
+      "mcc": [
+        {
+          "code": "invoke-virtual v2, Landroid/telephony/TelephonyManager;->getNetworkOperator()Ljava/lang/String;",
+          "class": "Lcom/baidu/mobstat/CooperService;",
+          "method": "getOperator"
+        },
+        {
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getNetworkOperator()Ljava/lang/String;",
+          "class": "Lcom/bx/pay/a/d;",
+          "method": "a"
+        },
+        {
+          "code": "invoke-virtual v0, Landroid/telephony/TelephonyManager;->getNetworkOperator()Ljava/lang/String;",
+          "class": "Lcom/bx/pay/a/d;",
+          "method": "a"
+        }
+      ],
+      "SMS": [
+        {
+          "code": "invoke-virtual/range v0 ... v5, Landroid/telephony/SmsManager;->sendTextMessage(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Landroid/app/PendingIntent; Landroid/app/PendingIntent;)V",
+          "class": "Lcom/upay/billing/utils/m;",
+          "method": "onSuccess"
+        },
+        {
+          "code": "invoke-virtual/range v0 ... v5, Landroid/telephony/SmsManager;->sendTextMessage(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Landroid/app/PendingIntent; Landroid/app/PendingIntent;)V",
+          "class": "Lcom/bx/pay/a;",
+          "method": "a"
+        }
+      ],
+      "crypto": [
+        {
+          "code": "invoke-virtual v0, Ljava/security/MessageDigest;->digest()[B",
+          "class": "Lcom/yongrun/app/sxmn/common/c;",
+          "method": "a"
+        },
+        {
+          "code": "invoke-virtual v0, Ljava/security/MessageDigest;->digest()[B",
+          "class": "Lcom/upay/billing/utils/Util;",
+          "method": "md5"
+        },
+        {
+          "code": "invoke-virtual v0, Ljava/security/MessageDigest;->digest()[B",
+          "class": "Lcom/upay/billing/engine/dm_ddo/Main;",
+          "method": "getMd5"
+        }
+      ],
+      "ssl": [
+        {
+          "code": "const-string v2, 'https'",
+          "class": "Lcom/a/a/b/d/d;",
+          "method": "<clinit>"
+        },
+        {
+          "code": "const-string v0, 'https'",
+          "class": "Lcom/bx/pay/netx/core/c/b;",
+          "method": "a"
+        },
+        {
+          "code": "const-string v0, 'https://'",
+          "class": "Lcom/bx/pay/utils/n;",
+          "method": "b"
+        }
+      ]
+    },
+    "urls": [
+      "http://111.13.91.31:12000/feecenter/api/create_order",
+      "http://&domain/function/ping.jsp",
+      "http://121.52.218.66:8011/request_v2.php?",
+      "http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json",
+      "http://imgsx.lingte.cc:8080/MTProject/MTContr?action=MTDetial&id=",
+      "http://$ip:10789/cmcc/g/online/s2sAutoChargeSMS?taskId=$taskId&pid=$pid&version=$version",
+      "http://117.135.131.209:808/baidurdo/noti_url.php",
+      "http://count.lingte.cc/IsInterface.php",
+      "http://$queryurl/$sid",
+      "http://imgsx.lingte.cc:8080/MTProject/MTContr?action=MTListAll",
+      "http://imgsx.lingte.cc:8080/MTProject/MTContr?action=MTListUp&typeid=",
+      "http://imgsx.lingte.cc:8080/MTProject/MTContr?action=MTUpdate&terminalType=android&version=",
+      "http://link.yida558.com/update.php?ri=",
+      "http://imgsx.lingte.cc:8080/MTProject/MTContr?action=MTFeedback&execType=update&body=",
+      "http://imgsx.lingte.cc:8080/MTProject/MTContr?action=MTList&typeid=",
+      "http://121.52.218.66:8008/request_v2.php",
+      "http://$ip/normandie/first?cpparam=$cpparam&imei=$imei&imsi=$imsi&ctid=$ctid&cpid=$cpid",
+      "http://$ip/cmcc/mm/single/chargeSMS?pid=$pid&imei=$imei&imsi=$imsi&chargeId=$chargeId&payId=$payId&version=$version&channelId=$channelId",
+      "http://api.upay360.cn/api/",
+      "http://mobads.baidu.com/ads/pa/",
+      "http://link.kssgx.com/kb416.php?ri=",
+      "http://117.135.131.209:808/xiyuerdo/noti_url.php",
+      "http://down.upay360.cn/stat?pid=",
+      "http://down.upay360.cn/stat?",
+      "http://imgsx.lingte.cc:8080/MTProject/MTContr?action=MTType",
+      "http://tipsdk.baidu.com",
+      "http://wap.cocospay.com/order/add/001081",
+      "http://$ip/cmcc/mm/online/s2sSubscribeX",
+      "http://api.upay360.cn/function/client_notify.jsp?cmd_key=$cmd_key&trade_id=$trade_id&mobile=$mobile&price=$price&result=$result&error=$error",
+      "http://111.13.47.76:81/open_gate/web_game_fee.php",
+      "http://ospd.mmarket.com/mmwlan/applySecCertForAPPThird",
+      "http://118.26.235.115:8080/rdo/services/rdo/shortNotify?channel=$channel&feeCode=$feeCode&schannel=$schannel",
+      "http://$ip/cmcc/g/single/s2sChargeSMS?pid=$pid&imsi=$imsi&imei=$imei&regist=0&version=$version&payId=$payId&chargeId=$chargeId&contentId=$contentId&channelId=$channelId",
+      "http://sdk.wiipay.cn",
+      "http://cdn.upay360.cn/pack.dat",
+      "http://wap.cmread.com",
+      "http://111.13.47.76:81/open_gate/web_game_callback.php",
+      "http://imgsx.lingte.cc:8080/MTProject/vidio?action=getVidio&sourceURL=",
+      "http://api.upay360.cn/function/modem_pool/log.jsp",
+      "http://sms2.upay360.com/geturl.php",
+      "http://121.52.218.66:8012/request_v2.php",
+      "http://121.52.218.66:8009/alipayto_v2.php",
+      "http://xxx",
+      "http://121.52.218.66:8009/alipayto_v2.php?",
+      "http://fee.aiyuedu.cn:22000/feecenter/api/ver_confirm",
+      "http://imgsx.lingte.cc:8080/MTProject/MTContr?action=MTListSerch&title=",
+      "http://tz.hdys5.com/zhuanti/20130410/?sxmn",
+      "http://ospd.mmarket.com/trusted4",
+      "http://imgsx.lingte.cc:8080/MTProject/MTContr?action=MTVodList",
+      "http://$ip/normandie/last?flag=$flag&id=$id",
+      "http://cdn.upay360.cn/upay_properties.json",
+      "http://$loginurl/$sid",
+      "http://$ip/cmcc/g/online/s2sAutoRegist?imei=$imei&imsi=$imsi&chargeId=$chargeId&pid=$pid&channelId=$channelId&userToken=$userToken&payId=$payId&version=$version",
+      "http://$ip/cmcc/mm/online/s2sAuthX",
+      "http://121.52.218.66:8011/request_v2.php",
+      "http://hmma.baidu.com/app.gif",
+      "http://imgsx.lingte.cc:8080/MTProject/MTContr?action=MTVodListUp&id=",
+      "http://pr.sppro.info:8887/sp?a=1",
+      "http://221.179.131.90/0903?http://111.13.47.76:81/open_gate/web_game_fee.php",
+      "http://m.kgame.com.cn/index.html",
+      "http://$ip/cmcc/mm/online/s2sLoginX",
+      "http://fee.aiyuedu.cn:22000/feecenter/api/create_order",
+      "http://notify.java.jpxx.org/index.jsp"
+    ],
+    "certificate": {
+      "sha1": "D17D3DD6D2F37FCD3C9700F7FD006B765C48A881",
+      "not_after": "Mar 4 18:42:51 2070 GMT",
+      "issuerDN": "/C=y/ST=y/L=y/O=y/OU=y/CN=y",
+      "subjectDN": "/C=y/ST=y/L=y/O=y/OU=y/CN=y",
+      "serial": "600A83F1",
+      "not_before": "Jun 1 18:42:51 2015 GMT"
+    },
+    "max_sdk_version": null,
+    "filters": [
+      "android.intent.action.ACTION_SHUTDOWN",
+      "android.intent.action.PACKAGE_ADDED",
+      "android.intent.action.MEDIA_MOUNTED",
+      "android.net.wifi.STATE_CHANGE",
+      "android.intent.action.MEDIA_EJECT",
+      "android.net.wifi.WIFI_STATE_CHANGED",
+      "android.intent.action.SERVICE_STATE",
+      "android.bluetooth.adapter.action.STATE_CHANGED",
+      "android.provider.Telephony.SMS_DELIVER",
+      "android.provider.Telephony.SMS_RECEIVED",
+      "android.provider.Telephony.SMS_RECEIVED2",
+      "com.zhifu.action.TASK",
+      "android.net.conn.CONNECTIVITY_CHANGE",
+      "android.intent.action.SIM_STATE_CHANGED",
+      "android.intent.action.BOOT_COMPLETED",
+      "LOCATION_SERVICE",
+      "android.intent.action.ANY_DATA_STATE",
+      "android.intent.action.MAIN",
+      "com.zhifu.action.SMS_SEND",
+      "android.intent.action.USER_PRESENT"
+    ],
+    "new_permissions": [],
+    "providers": [],
+    "package_name": "com.yr.sx",
+    "app_name": "成人快播",
+    "version_code": "95"
+  },
+  "cuckoo": {
+    "network": {
+      "http": [
+        {
+          "data": "GET /iplookup/iplookup.php?format=json HTTP/1.1\r\nUser-Agent: Dalvik/1.6.0 (Linux; U; Android 4.1.1; SAMSUNG GT-I9100 Build/JRO03R)\r\nHost: int.dpool.sina.com.cn\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\n",
+          "port": 80,
+          "body": "",
+          "uri": "http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json",
+          "user-agent": "Dalvik/1.6.0 (Linux; U; Android 4.1.1; SAMSUNG GT-I9100 Build/JRO03R)",
+          "method": "GET",
+          "host": "int.dpool.sina.com.cn",
+          "version": "1.1",
+          "path": "/iplookup/iplookup.php?format=json"
+        },
+        {
+          "data": "GET /IsInterface.php?ri=s_FE300276&op=install&mac=357242043237&vs=95&tm=1426266940034&key=6487a5b721cfa6b49bf4e518e18c866c&dq={\"ret\":1,\"start\":-1,\"end\":-1,\"country\":\"\\u8377\\u5170\",\"province\":\"Noord-Holland\",\"city\":\"Amsterdam\",\"district\":\"\",\"isp\":\"\",\"type\":\"\",\"desc\":\"\"}&sc=320.0*480.0&os=4.1.1&jrs=Android&ss=1&sd=0 HTTP/1.1\r\naccept: */*\r\nconnection: Keep-Alive\r\nuser-agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;SV1)\r\nHost: count.lingte.cc\r\nAccept-Encoding: gzip\r\n\r\n",
+          "port": 80,
+          "body": "",
+          "uri": "http://count.lingte.cc/IsInterface.php?ri=s_FE300276&op=install&mac=357242043237&vs=95&tm=1426266940034&key=6487a5b721cfa6b49bf4e518e18c866c&dq={\"ret\":1,\"start\":-1,\"end\":-1,\"country\":\"\\u8377\\u5170\",\"province\":\"Noord-Holland\",\"city\":\"Amsterdam\",\"district\":\"\",\"isp\":\"\",\"type\":\"\",\"desc\":\"\"}&sc=320.0*480.0&os=4.1.1&jrs=Android&ss=1&sd=0",
+          "user-agent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;SV1)",
+          "method": "GET",
+          "host": "count.lingte.cc",
+          "version": "1.1",
+          "path": "/IsInterface.php?ri=s_FE300276&op=install&mac=357242043237&vs=95&tm=1426266940034&key=6487a5b721cfa6b49bf4e518e18c866c&dq={\"ret\":1,\"start\":-1,\"end\":-1,\"country\":\"\\u8377\\u5170\",\"province\":\"Noord-Holland\",\"city\":\"Amsterdam\",\"district\":\"\",\"isp\":\"\",\"type\":\"\",\"desc\":\"\"}&sc=320.0*480.0&os=4.1.1&jrs=Android&ss=1&sd=0"
+        }
+      ],
+      "smtp": [],
+      "hosts": [
+        "122.144.133.237",
+        "180.149.136.219",
+        "122.226.102.99",
+        "122.144.133.236",
+        "122.144.133.230",
+        "122.144.133.235"
+      ],
+      "dns": [
+        {
+          "type": "A",
+          "request": "sdk.wiipay.cn",
+          "answers": []
+        },
+        {
+          "type": "A",
+          "request": "sdk.wiipay.cn",
+          "answers": [
+            {
+              "data": "122.144.133.237",
+              "type": "A"
+            },
+            {
+              "data": "122.144.133.236",
+              "type": "A"
+            },
+            {
+              "data": "122.144.133.230",
+              "type": "A"
+            },
+            {
+              "data": "122.144.133.235",
+              "type": "A"
+            }
+          ]
+        },
+        {
+          "type": "A",
+          "request": "int.dpool.sina.com.cn",
+          "answers": []
+        },
+        {
+          "type": "A",
+          "request": "int.dpool.sina.com.cn",
+          "answers": [
+            {
+              "data": "180.149.136.219",
+              "type": "A"
+            }
+          ]
+        },
+        {
+          "type": "A",
+          "request": "count.lingte.cc",
+          "answers": []
+        },
+        {
+          "type": "A",
+          "request": "count.lingte.cc",
+          "answers": [
+            {
+              "data": "122.226.102.99",
+              "type": "A"
+            }
+          ]
+        }
+      ],
+      "domains": [
+        {
+          "ip": "122.144.133.236",
+          "domain": "sdk.wiipay.cn"
+        },
+        {
+          "ip": "180.149.136.219",
+          "domain": "int.dpool.sina.com.cn"
+        },
+        {
+          "ip": "122.226.102.99",
+          "domain": "count.lingte.cc"
+        }
+      ],
+      "irc": []
+    },
+    "target": {
+      "category": "file",
+      "file": {
+        "size": 1967358,
+        "sha1": "9669b78e5f51b397f4a10ffa4ce6e7caeb682dde",
+        "crc32": "79CFE499",
+        "ssdeep": "49152:R7jJbKuBerMvRP58c/vQzYrJuZI5E1MzmwrGRfP:VJdBer0D/rJZzsfP",
+        "sha256": "0006a38d4e251a28f57d442ef11efcc4c82491c75788594dc7ea6b76874696da",
+        "sha512": "1806de8b19124c1759f5eabaa23cc68dba611072e48b4bc740e77b365e784610b63c88d6ea7b8f6c862f3805edea51c20f752feeb94c275fe2b009894699c781",
+        "md5": "eef778cf4dfb6fcbb0bac76dcd5e655f"
+      }
+    }
+  },
+  "droidbox": {
+    "libraries": [],
+    "sendnet": [
+      {
+        "desthost": "count.lingte.cc",
+        "pid": 846,
+        "dataleak": [
+          "TAINT_IMEI"
+        ],
+        "processname": "com.yr.sx",
+        "time": 8.896866,
+        "tid": 705882584,
+        "data": "GET /IsInterface.php?ri=s_FE300276&op=install&mac=357242043237&vs=95&tm=1426266940034&key=6487a5b721cfa6b49bf4e518e18c866c&dq={\"ret\":1,\"start\":-1,\"end\":-1,\"country\":\"\\u8377\\u5170\",\"province\":\"Noord-Holland\",\"city\":\"Amsterdam\",\"district\":\"\",\"isp\":\"\",\"type\":\"\",\"desc\":\"\"}&sc=320.0*480.0&os=4.1.1&jrs=Android&ss=1&sd=0 HTTP/1.1\r\naccept: */*\r\nconnection: Keep-Alive\r\nuser-agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;SV1)\r\nHost: count.lingte.cc\r\nAccept-Encoding: gzip\r\n\r\n",
+        "destport": 80
+      },
+      {
+        "desthost": "int.dpool.sina.com.cn",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 6.833666,
+        "tid": 705882584,
+        "data": "GET /iplookup/iplookup.php?format=json HTTP/1.1\r\nUser-Agent: Dalvik/1.6.0 (Linux; U; Android 4.1.1; SAMSUNG GT-I9100 Build/JRO03R)\r\nHost: int.dpool.sina.com.cn\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\n",
+        "destport": 80
+      }
+    ],
+    "servicestart": [
+      {
+        "tid": 1073870640,
+        "processname": "com.yr.sx",
+        "pid": 846,
+        "name": "com.bx.pay.WpaySmsService",
+        "time": 4.004323
+      }
+    ],
+    "dexclass": [
+      {
+        "tid": 1073870640,
+        "processname": "com.yr.sx",
+        "time": 0.161067,
+        "pid": 846,
+        "path": "/data/app/com.yr.sx-1.apk"
+      },
+      {
+        "tid": 1073870640,
+        "processname": "com.snowfish.a.a.bg",
+        "time": 8.63745,
+        "pid": 882,
+        "path": "/data/app/com.yr.sx-1.apk"
+      }
+    ],
+    "recvnet": [
+      {
+        "srchost": "count.lingte.cc",
+        "pid": 846,
+        "srcport": 80,
+        "processname": "com.yr.sx",
+        "time": 9.328661,
+        "tid": 705882584,
+        "data": "HTTP/1.1 403 Forbidden\r\nServer: nginx\r\nDate: Mon, 01 Feb 2016 02:21:29 GMT\r\nContent-Type: text/html\r\nContent-Length: 564\r\nConnection: keep-alive\r\nKeep-Alive: timeout=60\r\n\r\n<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body bgcolor=\"white\">\r\n<center><"
+      },
+      {
+        "srchost": "int.dpool.sina.com.cn",
+        "pid": 846,
+        "srcport": 80,
+        "processname": "com.yr.sx",
+        "time": 7.111748,
+        "tid": 705882584,
+        "data": "HTTP/1.1 200 OK\r\nServer: Tengine\r\nDate: Mon, 01 Feb 2016 02:21:27 GMT\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 143\r\nConnection: close\r\nDPOOL_HEADER: tyr106\r\nSINA-LB:aGEuMjE5LmcyLnlmLmxiLnNpbmFub2RlLmNvbQ==\r\nSINA-TS:OWJmMjk2Y2UgMCAwIDAgNSAwCg==\r\n\r\n{\"ret\":1,\"start\":-1,\"end\":-1,\"country\":\"\\u8377\\u5170\",\"province\":\"Noord-Holland\",\"city\":\"Amsterdam\",\"district\":\"\",\"isp\":\"\",\"type\":\"\",\"desc\":\"\"}"
+      }
+    ],
+    "phonecalls": [],
+    "fileswritten": [
+      {
+        "name": "/data/data/com.yr.sx/shared_prefs/__Baidu_Stat_SDK_SendRem.xml",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 6.647066,
+        "tid": 1073870640,
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<string name=\"setchannelwithcodevalue\">s_FE300276</string>\n<boolean name=\"exceptionanalysisflag\" value=\"true\" />\n<boolean name=\"setchannelwithcode\" value=\"true\" />\n</map>\n"
+      },
+      {
+        "name": "/data/data/com.yr.sx/shared_prefs/settings.xml",
+        "pid": 846,
+        "dataleak": [
+          "TAINT_IMEI"
+        ],
+        "processname": "com.yr.sx",
+        "time": 7.495508,
+        "tid": 705882584,
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<string name=\"province\">Noord-Holland</string>\n<string name=\"channel\">s_FE300276</string>\n<boolean name=\"first\" value=\"false\" />\n<string name=\"mac\">357242043237</string>\n</map>\n"
+      },
+      {
+        "name": "/data/data/com.yr.sx/app_Sonnenblume/res.apk.u",
+        "pid": 882,
+        "processname": "com.snowfish.a.a.bg",
+        "time": 15.996215,
+        "tid": 1073870640,
+        "data": "504b03040a0000080000556cb946000000000000000000000000090004004d4554412d494e462ffeca0000504b03040a0000080800546cb94671c4bf185900000067000000140000004d4554412d494e462f4d414e49464553542e4d46f34dcccb4c4b2d2ed10d4b2d2acecccfb35230d433e0e572cc4312712c484cce4855008a01252df48c79b99c8b52134b5253749d2aadc04206f14606ba4946660a1afe4589c939a90acef94505f945892540fd9abc5cbc5c00504b03040a00000808005c67b946a947769e040000000200000008000000434f4d502e56455233330500504b03040a0000080800556cb946dd4b393cd3940100cc7f03000b000000636c61737365732e646578849d077c54c5fbf567b62421045842111030092df4000141414251ba52420d202288460809127a176901044540400cbd187a557a952e22bd97d0420dbd26ff333367930bbfecfbe2e7eb79669ee93377eebdbb93a453e73ebe21152a8a492f0f17b99cebded2dabb827f2b5f72e7d17a4bdb84ba3aad5c7760b05d440b21fab408f517fc971371e3bc848edf2b85989b4f88e7d03d8142b4b00bd1b38a10dde12f1c2ec45da4993112694fdb44db7942e4df6d1305411028028a8332a002a8063e014d4004f80a4483be601018057e066bc001700c5c0249e019b0ff6d1359415ef01e0802a54008f8007c0cea82d5e02fb01dec05ff80"
+      },
+      {
+        "name": "",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 39.330437,
+        "tid": 1073870640,
+        "data": "723917a52696a4a6e83a555a29a45400959bf372f1720100504b07088fa394124600000048000000504b03041400080808005c4ab3460000000000000000000000000b000000636c61737365732e6465785cdd099c4fd5e3fff1733f33f3592c5992a56891b264cb3af6b5644994d2625f9a2c29211415a92491b28c21a11222648869414828a254247c232df69db2fc5ee79cf734f7f1fb7fffcfdffb9c73cf3d77bf9ffb199ffbfdf6e8392457e5aad54dfb131d0b57fcb2ea971f6f7fb0c793cb37dcff448d0aa3eae6dd98717c5cb279d21833e4816a058dfe5f79dab6e432aedd448c997b9b3177d9ac6acca62463e2f718931537e6c1c78d090263ca2c65daa749e6aeef8de93023c97442570cc04b188dd7f006262303ef623e96e34b6cc71efc8e23b88cdcef2499a2b81195511f77a2353a220dfdf10c5ec46bc8c07c7c8c4dd889dd3889b3b880c84cc6462194c0ada8845434420bdc870ee8897e188ce73002133005b3b10859d880adf801bbf01bfec6099cc765a4cc4a32b9500437a01c6e4703b4c0ddb81f3d310843300c23f01246632cc6630156602dbec676ecc65e1cc23924cd663b711d4aa106eaa119ee43673c8ee11883c978174bf005bec54eecc7219c8679976d4031944205d4434b3c889e7812cf610ca6622eb2b0093fe30f9cc245a4bc9764f2e15a944479a4a229daa0037a630846e055bc85"
+      },
+      {
+        "name": "/data/data/com.yr.sx/shared_prefs/wiipay.xml",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 3.845911,
+        "tid": 1073870640,
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<string name=\"startTime\">1426266937245</string>\n<string name=\"channelCode\">200000</string>\n<string name=\"startTimeString\">2015-03-13 18:15:37</string>\n<string name=\"appId\">0632ca88c540d9fed56002796c721030</string>\n</map>\n"
+      },
+      {
+        "name": "/data/data/com.yr.sx/shared_prefs/__Baidu_Stat_SDK_SendRem.xml",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 6.614227,
+        "tid": 1073870640,
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<string name=\"setchannelwithcodevalue\">s_FE300276</string>\n<boolean name=\"exceptionanalysisflag\" value=\"true\" />\n</map>\n"
+      },
+      {
+        "name": "/data/data/com.yr.sx/app_zhifulibs/libunicompurcore.so",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 23.173304,
+        "tid": 1073870640,
+        "data": "3e0053e3cf05000aff0051e3012081123505000a3e30a0e3011084e00430c1e5042184e50831c4e5186184e5a0fcffea041091e5c80600eb003094e5041194e504a013e2f403001ae0529fe5049084e205508fe0028085e2050000ea033084e0080055e10460c3e5041184e50861c4e59efcff0aff0051e30130a0e10160d5e401108112f4ffff1a0c3194e5102194e503a1c4e50900a0e133ff2fe1242194e50110a0e3012082e00030a0e3242184e5e9ffffea0050a0e3181190e5185180e5048097e504108de5050058e17bfcff0a002098e5141190e51a3042e258a08de2020053e340502ae500108de51c808de518a180e520508de524108de50a30a0910160a0930190a0916906008a048098e506128ae0000058e368fcff0a040056e366fcff0a002098e5180194e51ac042e202005ce3100083e5148083e5185083e51c9083e5181184e5016086e2103083e2edffff9a040052e3ec05000a020052e32800001a08b098e500309be53f0053e304b09b0500309b051a3043e2020053e32000008a030056e34cfcff8a01c046e208808de50c708de50c928ae000809de50470a0e1020000ea040056e30590a0e141fcff0a0f0099e8105089e20f0085e80cc28ae006428ae00030a0e310c089e5083089e5184187e504b089e50c8089e504b09be5016086e200309be501c046e21a3043e2020053e3eaffff9a0740a0e1"
+      },
+      {
+        "name": "/data/data/com.yr.sx/shared_prefs/upay_pay.xml",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 6.744144,
+        "tid": 1073870640,
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<long name=\"start_time\" value=\"1426266940163\" />\n</map>\n"
+      },
+      {
+        "name": "/data/data/com.yr.sx/app_zhifulibs/libunicompurcore.so",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 11.901762,
+        "tid": 1073870640,
+        "data": "f8fe01001700000004ff0100170000000cff01001700000054ff0100170000005cff01001700000068ff01001700000070ff01001700000090ff01001700000098ff010017000000a4ff010017000000acff010017000000b8ff010017000000c0ff010017000000ccff010017000000d4ff010017000000e0ff010017000000e8ff010017000000f4ff010017000000fcff010017000000080002001700000010000200170000001c0002001700000024000200170000003000020017000000380002001700000044000200170000004c00020017000000580002001700000060000200170000006c0002001700000074000200170000008000020017000000840002001700000090000200170000009400020017000000a000020017000000a400020017000000b000020017000000b400020017000000c000020017000000c400020017000000d000020017000000d400020017000000e000020017000000e400020017000000f000020017000000f40002001700000000010200170000000401020017000000100102001700000014010200170000002001020017000000240102001700000030010200170000003401020017000000400102001700000044010200170000005001020017000000540102001700000060010200170000006401020017000000700102001700000074010200170000008001020017000000"
+      },
+      {
+        "name": "/data/data/com.yr.sx/shared_prefs/wiipay.xml",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 6.256687,
+        "tid": 1073870640,
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<long name=\"prefetchTime\" value=\"1426266937332\" />\n<string name=\"startTime\">1426266937245</string>\n<string name=\"startTimeString\">2015-03-13 18:15:37</string>\n<string name=\"appId\">0632ca88c540d9fed56002796c721030</string>\n<string name=\"channelCode\">200000</string>\n<long name=\"serviceStartTime\" value=\"1426266939692\" />\n</map>\n"
+      },
+      {
+        "name": "/data/data/com.yr.sx/app_zhifulibs/libunicompurcore.so",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 16.402395,
+        "tid": 1073870640,
+        "data": "040086e2a00200eb0950a0e30500a0e188d08de201db8de2f087bde838402de90050a0e10140a0e10500a0e1401094e524ffffeb000050e30a00001a403094e5143085e50100a0e3103095e50510a0e10420a0e133ff2fe1080050e3f1ffff0a070050e30000000ad7edffeb040084e2850200eb000051e30300000a040051e30200a0830100a0931eff2fe10f0052e3000053930201800000209d05041090050030a0030130a013001082050300a0010200a0131eff2fe11f402de90120a0e10c308de20010a0e300308de50130a0e1e7ffffeb0c009de514d08de20080bde8000051e30300000a040051e30200a0830100a0931eff2fe10f0052e30000539300109d05020180000030a0030130a01300109105041080050200a0130300a0011eff2fe11f402de90130a0e110108de2042021e500108de50010a0e30320a0e10130a0e1e5ffffeb14d08de20080bde8f04f2de90140a0e14c7094e524d04de20260a0e1081000e2042097e4000053e30c108de5038000e218708de504308de50500001a0224a0e11d30cde50330a0e314208de51c30cde5070000ea2238a0e1ff3003e20228a0e114208de5037187e00220a0e31d30cde51c20cde5509094e5020058e338709405019019e20090a013a400000aa80000ea04209de5483094e5020052e304b09705b2b0d71108508702b0a0d711045087120600a0e10170cbe3"
+      },
+      {
+        "name": "/data/data/com.yr.sx/app_zhifulibs/libunicompurcore.so",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 7.143982,
+        "tid": 1073870640,
+        "data": "7f454c4601010100000000000000000003002800010000000000000034000000600102000000000534002000070028001700160006000000340000003400000034000000e0000000e000000004000000040000000100000000000000000000000000000084e8010084e8010005000000001000000100000028ed010028fd010028fd0100e81200003562000006000000001000000200000014fd0100140d0200140d0200f8000000f8000000060000000400000051e574640000000000000000000000000000000000000000060000000000000001000070f0a90100f0a90100f0a90100980d0000980d0000040000000400000052e5746428ed010028fd010028fd0100d8120000d812000006000000080000000000000000000000000000000000000001000000000000000000000012000000100000000000000000000000120000001d00000048b3000000000000120007002a00000024b4000020000000120007003a000000d5700000c000000012000700480000000000000000000000120000004f00000000000000000000001200000054000000000000000000000012000000590000000000000000000000120000006000000088b701004200000011000a0065000000f4bc000008000000120007007c000000957100001c0000001200070085000000b1710000ec00000012000700930000000000000000000000"
+      },
+      {
+        "name": "/data/data/com.yr.sx/shared_prefs/__Baidu_Stat_SDK_SendRem.xml",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 6.557064,
+        "tid": 1073870640,
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<boolean name=\"exceptionanalysisflag\" value=\"true\" />\n</map>\n"
+      },
+      {
+        "name": "/data/data/com.yr.sx/shared_prefs/wiipay.xml",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 3.913583,
+        "tid": 1073870640,
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<long name=\"prefetchTime\" value=\"1426266937332\" />\n<string name=\"startTime\">1426266937245</string>\n<string name=\"startTimeString\">2015-03-13 18:15:37</string>\n<string name=\"appId\">0632ca88c540d9fed56002796c721030</string>\n<string name=\"channelCode\">200000</string>\n</map>\n"
+      },
+      {
+        "name": "/data/data/com.yr.sx/app_zhifulibs/libunicompurcore.so",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 9.994108,
+        "tid": 1073870640,
+        "data": "5f66756e64616d656e74616c5f747970655f696e666f44324576005f5a54564e31305f5f637878616269763132335f5f66756e64616d656e74616c5f747970655f696e666f45005f5a4e31305f5f637878616269763132335f5f66756e64616d656e74616c5f747970655f696e666f44304576005f5a4e31305f5f637878616269763132335f5f66756e64616d656e74616c5f747970655f696e666f44314576005f5a54534e31305f5f637878616269763132335f5f66756e64616d656e74616c5f747970655f696e666f45005f5a54494e31305f5f637878616269763132335f5f66756e64616d656e74616c5f747970655f696e666f45005f5a5449504b446e005f5a54564e31305f5f637878616269763131395f5f706f696e7465725f747970655f696e666f45005f5a5453504b446e005f5a5449446e005f5a544950446e005f5a545350446e005f5a5453446e005f5a5449504b4465005f5a5453504b4465005f5a54494465005f5a5449504465005f5a5453504465005f5a54534465005f5a5449504b4464005f5a5453504b4464005f5a54494464005f5a5449504464005f5a5453504464005f5a54534464005f5a5449504b4466005f5a5453504b4466005f5a54494466005f5a5449504466005f5a5453504466005f5a54534466005f5a5449504b65005f5a5453504b65005f5a544965005f5a54495065005f5a"
+      },
+      {
+        "name": "/data/data/com.yr.sx/app_zhifulibs/libunicompurcore.so",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 8.613636,
+        "tid": 1073870640,
+        "data": "12000700df2600006c1e01005c0000001200070019270000700c02000c00000011000d003f270000000000000000000012000000462700000000000000000000120000004f2700008c270100cc0000001200070063270000ac28010050000000120007007727000058280100540000001200070089270000701d01001000000012000700a1270000801d01002800000012000700b5270000a81d01001c00000012000700c9270000b8e701000d00000011000a00da270000c41d01001000000012000700f1270000d41d0100280000001200070004280000fc1d01001c0000001200070017280000c8e701000c00000011000a0027280000181e0100100000001200070041280000281e0100280000001200070057280000501e01001c000000120007006d280000d4e701000f00000011000a0080280000c81e01001400000012000700c7280000381f01001c00000012000700ee280000101f0100280000001200070015290000541f01006c0000001200070080290000e4e701002200000011000a00a6290000000000000000000012000000b9290000000000000000000012000000ce290000202301002401000012000700f129000044240100f000000012000700102a0000102a0100b0010000120007003d2a0000000000000000000012000000452a0000fc2801001c00000012000700602a00005ce8010001000000"
+      },
+      {
+        "name": "/data/data/com.yr.sx/shared_prefs/upay_pay.xml",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 6.783992,
+        "tid": 1073870640,
+        "data": "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>\n<map>\n<long name=\"start_time\" value=\"1426266940163\" />\n<int name=\"update_enabled\" value=\"0\" />\n</map>\n"
+      },
+      {
+        "name": "/data/data/com.yr.sx/app_zhifulibs/libunicompurcore.so",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 26.556384,
+        "tid": 1073870640,
+        "data": "313531642d346665312d396362362d3835623034303339643866660064353664313863312d313865372d343561302d386336372d3761626235303631373833310033366663356165392d643263352d346661312d383637322d3539353338343736326664620061656633616231352d633661372d346637612d393330372d3835343164393161623062300061333331626666392d363134392d343532362d383866652d6238383233636139613563610061313762336639662d666639352d343266342d626165652d3838636339643637376662650066366265336137372d326332622d343437362d613731652d6461386236663434633330320038373330623539342d326265382d343031632d623265312d6232613236386163363238380062313164653833652d643564362d346463382d623837332d3866643066636261616433660064643539363963342d336534322d343034612d616563612d6339666265336537393034330064343931663964642d343335312d343033372d396134372d6439343934636630363463640032393732313163302d653434352d343966372d396366342d3362376533336137343165310030346339386664352d326362312d346239632d386562642d6236623831653932336239650039373865666335662d616331352d346237622d623261302d32636666343735303437396500363963"
+      },
+      {
+        "name": "/data/data/com.yr.sx/app_zhifulibs/libunicompurcore.so",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 7.367162,
+        "tid": 1073870640,
+        "data": "1200070032040000b1770000780000001200070052040000297800005800000012000700880400008178000040000000120007009c040000000000000000000012000000ad040000000000000000000011000000bf040000c17800005200000012000700d5040000157900005000000012000700fa04000000000000000000001200000002050000000000000000000012000000090500006579000034000000120007001b050000000000000000000012000000220500009979000034000000120007003b050000cd79000028000000120007005c050000f57900002c000000120007007f050000217a00002c00000012000700a00500004d7a00004c00000012000700d3050000997a0000bc0000001200070014060000557b00004c0000001200070041060000a17b0000c4000000120007006d060000657c00001002000012000700a4060000757e00002402000012000700cc060000998000004400000012000700e0060000dd8000002a00000012000700ff06000009810000a80000001200070020070000b18100001e0000001200070037070000d181000064010000120007005a0700003583000010070000120007008e070000458a00001c02000012000700b1070000618c00009800000012000700d8070000717300001000000012000700e5070000f98c00001000000012000700f9070000e803020010000000"
+      },
+      {
+        "name": "/data/data/com.yr.sx/app_zhifulibs/libunicompurcore.so",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 21.356908,
+        "tid": 1073870640,
+        "data": "020053e17d0000aa831083e0100090e50111a0e1013083e2015090e0143084e57700000a18329fe523c0a0e303308fe0b33f83e201c080e70320a0e1043085e5a6ffffea143090e5182090e5020053e1560000aa831083e0100090e50111a0e1013083e2015090e0143084e56400000ad0319fe523c0a0e303308fe0bd3f83e201c080e70320a0e1043085e593ffffea143090e5182090e5020053e1430000aa831083e0100090e50111a0e1013083e2015090e0143084e55100000a88319fe523c0a0e303308fe02e3e83e201c080e70320a0e1043085e580ffffea143090e5181090e5010053e1101090b5835083b0013083b2143080b5055181b00050a0a32830a0e300508de5003085e50230d2e5303043e2090053e30030a0830130a093000053e3b830c5e13700001a0400a0e188fdffeb00309de5040085e5045093e5000055e3edfdff0a0400a0e11cfbffeb0c2094e50030d2e5000053e30400000a012082e20c2084e5732043e2003072e20230a3e000509de5ba30c5e1dffdffea10c094e5830083e00001a0e100509ce0013083e2143084e52330a01304108515041095050c20941500308c179bfeffea0050a0e3042095e548ffffea960500eb000050e30050a0e100008de5d8fdff0a003090e5160053e3d5fdff1ac7fdffea060400eb005050e2c1feff1a00508de5cffdffea041091e50050a0e387feffea"
+      },
+      {
+        "name": "/data/data/com.yr.sx/app_zhifulibs/libunicompurcore.so",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 7.605287,
+        "tid": 1073870640,
+        "data": "12000700670d0000059200007c00000012000700a20d0000819200002800000012000700e30d0000a992000060000000120007001f0e000009930000ac00000012000700560e000079ae0000f4000000120007009d0e0000b59300001c08000012000700d30e0000d19b00001000000012000700e70e0000d19b00001000000012000700fb0e0000e19b000010000000120007000f0f0000f80302001000000011000d00200f0000f19b00001200000012000700340f0000039c00001a000000220007006c0f00001d9c00000e000000220007009b0f00002d9c00001000000012000700af0f00003d9c00000c00000012000700ce0f0000041002000400000011001100d80f0000d1a200006c000000120007000d100000c5a70000b4000000120007005210000045a9000048010000120007008b100000c9aa00009c01000012000700b810000065ac0000cc00000012000700df1000006daf00007c0100001200070018110000e9b000005400000012000700641100000000000000000000120000006a11000000000000000000001200000072110000000000000000000012000000791100003db100005800000012000700b7110000000000000000000012000000bd110000000000000000000012000000c3110000000000000000000012000000ca110000000000000000000012000000d01100000000000000000000"
+      }
+    ],
+    "dns": [
+      {
+        "ip": "122.144.133.237",
+        "hostname": "sdk.wiipay.cn"
+      },
+      {
+        "ip": "180.149.136.219",
+        "hostname": "int.dpool.sina.com.cn"
+      },
+      {
+        "ip": "122.226.102.99",
+        "hostname": "count.lingte.cc"
+      },
+      {
+        "ip": "122.144.133.236",
+        "hostname": "sdk.wiipay.cn"
+      },
+      {
+        "ip": "122.144.133.230",
+        "hostname": "sdk.wiipay.cn"
+      },
+      {
+        "ip": "122.144.133.235",
+        "hostname": "sdk.wiipay.cn"
+      }
+    ],
+    "cryptousage": [],
+    "filesread": [
+      {
+        "name": "/proc/846/net/if_inet6",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 3.536931,
+        "tid": 1073870640,
+        "data": "00000000000000000000000000000001 01 80 10 80       lo\nfe80000000000000505400fffe123456 02 40 20 80     eth0\n"
+      },
+      {
+        "name": "/data/app/com.yr.sx-1.apk",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 4.602719,
+        "tid": 1073870640,
+        "data": "5f73656c6563746f722e786d6c504b01021400140008080800f196c246468b404f6d010000a00300002500000000000000000000000000b94305007265732f6472617761626c652f70617965636f5f706c7567696e5f706f705f62672e786d6c504b01021400140008080800f196c246ef8cc105d4010000500400002a00000000000000000000000000794505007265732f6472617761626c652f70617965636f5f706c7567696e5f70726f67726573736261722e786d6c504b01021400140008080800f196c246a709279504010000940200002f00000000000000000000000000a54705007265732f6472617761626c652f70617965636f5f706c7567696e5f726164696f62745f73656c6563746f722e786d6c504b01021400140008080800f196c246478c743fc0000000b40100002800000000000000000000000000064905007265732f6472617761626c652f70617965636f5f706c7567696e5f736f6c6964677261792e786d6c504b01021400140008080800f196c2464459c276c1000000b40100002a000000000000000000000000001c4a05007265732f6472617761626c652f70617965636f5f706c7567696e5f736f6c696479656c6c6f772e786d6c504b01020a000a0000080000f196c24698b83828dc020000dc0200002b00000000000000000000000000354b05007265732f6472617761626c652f7061"
+      },
+      {
+        "name": "/data/app/com.yr.sx-1.apk",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 1.953922,
+        "tid": 1073870640,
+        "data": "504b050600000000bf00bf00743c000074c81d000000504b010214001400080808000570c546fc1ea63c9a1700001f4100001400000000000000000000000000000000004d4554412d494e462f4d414e49464553542e4d46504b010214001400080808000670c546d67ff89407180000984100000f00000000000000000000000000dc1700004d4554412d494e462f5a5a572e5346504b010214001400080808000670c546a2df8b3f12040000ee0400001000000000000000000000000000203000004d4554412d494e462f5a5a572e525341504b01020a000a0000080000b486c2461e2febb8de960100de9601001a00000000000000000000000000703400006173736574732f536f6e6e656e626c756d652f7265732e62696e504b01020a000a0000080000b486c246b79239b368000000680000002e0000000000000000000000000086cb01006173736574732f536f6e6e656e626c756d652f7a795f636f6d6d6f6e5f636f6e6669675f6c6f63616c2e64617461504b01020a000a0000080000b486c2462afeb5633d0000003d00000031000000000000000000000000003acc01006173736574732f536f6e6e656e626c756d652f7a795f636f6d6d6f6e5f636f6e6669675f736e6f77666973682e64617461504b01021400140008080800b486c246853aa0b676e90000f80402002f00000000000000000000000000"
+      },
+      {
+        "name": "/data/app/com.yr.sx-1.apk",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 16.4576,
+        "tid": 705617216,
+        "data": "504b03040a0000080000556cb946000000000000000000000000090004004d4554412d494e462ffeca0000504b03040a0000080800546cb94671c4bf185900000067000000140000004d4554412d494e462f4d414e49464553542e4d46f34dcccb4c4b2d2ed10d4b2d2acecccfb35230d433e0e572cc4312712c484cce4855008a01252df48c79b99c8b52134b5253749d2aadc04206f14606ba4946660a1afe4589c939a90acef94505f945892540fd9abc5cbc5c00504b03040a00000808005c67b946a947769e040000000200000008000000434f4d502e56455233330500504b03040a0000080800556cb946dd4b393cd3940100cc7f03000b000000636c61737365732e646578849d077c54c5fbf567b62421045842111030092df4000141414251ba52420d202288460809127a176901044540400cbd187a557a952e22bd97d0420dbd26ff333367930bbfecfbe2e7eb79669ee93377eebdbb93a453e73ebe21152a8a492f0f17b99cebded2dabb827f2b5f72e7d17a4bdb84ba3aad5c7760b05d440b21fab408f517fc971371e3bc848edf2b85989b4f88e7d03d8142b4b00bd1b38a10dde12f1c2ec45da4993112694fdb44db7942e4df6d1305411028028a8332a002a8063e014d4004f80a4483be601018057e066bc001700c5c0249e019b0ff6d1359415ef01e0802a54008f8007c0cea82d5e02fb01dec05ff80"
+      },
+      {
+        "name": "/proc/846/net/if_inet6",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 3.624805,
+        "tid": 1073870640,
+        "data": "00000000000000000000000000000001 01 80 10 80       lo\nfe80000000000000505400fffe123456 02 40 20 80     eth0\n"
+      },
+      {
+        "name": "/data/app/com.yr.sx-1.apk",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 6.173767,
+        "tid": 1073870640,
+        "data": "000048acbc804fc0e487f93b577b4307f0b1fe53f949f142bad1c7e232700b47e379e96d21f3843c1d0da74586f53107ab08845a700795d41737425df74013aa4384854048b27aefc98ef0e79641fea49681b1d5755be3df9ba02a3a3c51ae6d5f7b596924a50ae8a96e"
+      },
+      {
+        "name": "/data/app/com.yr.sx-1.apk",
+        "pid": 882,
+        "processname": "com.snowfish.a.a.bg",
+        "time": 12.050726,
+        "tid": 1073870640,
+        "data": "504b050600000000bf00bf00743c000074c81d000000504b010214001400080808000570c546fc1ea63c9a1700001f4100001400000000000000000000000000000000004d4554412d494e462f4d414e49464553542e4d46504b010214001400080808000670c546d67ff89407180000984100000f00000000000000000000000000dc1700004d4554412d494e462f5a5a572e5346504b010214001400080808000670c546a2df8b3f12040000ee0400001000000000000000000000000000203000004d4554412d494e462f5a5a572e525341504b01020a000a0000080000b486c2461e2febb8de960100de9601001a00000000000000000000000000703400006173736574732f536f6e6e656e626c756d652f7265732e62696e504b01020a000a0000080000b486c246b79239b368000000680000002e0000000000000000000000000086cb01006173736574732f536f6e6e656e626c756d652f7a795f636f6d6d6f6e5f636f6e6669675f6c6f63616c2e64617461504b01020a000a0000080000b486c2462afeb5633d0000003d00000031000000000000000000000000003acc01006173736574732f536f6e6e656e626c756d652f7a795f636f6d6d6f6e5f636f6e6669675f736e6f77666973682e64617461504b01021400140008080800b486c246853aa0b676e90000f80402002f00000000000000000000000000"
+      },
+      {
+        "name": "/sys/devices/virtual/net/lo/ifindex",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 3.536399,
+        "tid": 1073870640,
+        "data": "1\n"
+      },
+      {
+        "name": "/data/app/com.yr.sx-1.apk",
+        "pid": 882,
+        "processname": "com.snowfish.a.a.bg",
+        "time": 8.683327,
+        "tid": 1073870640,
+        "data": "504b050600000000bf00bf00743c000074c81d000000504b010214001400080808000570c546fc1ea63c9a1700001f4100001400000000000000000000000000000000004d4554412d494e462f4d414e49464553542e4d46504b010214001400080808000670c546d67ff89407180000984100000f00000000000000000000000000dc1700004d4554412d494e462f5a5a572e5346504b010214001400080808000670c546a2df8b3f12040000ee0400001000000000000000000000000000203000004d4554412d494e462f5a5a572e525341504b01020a000a0000080000b486c2461e2febb8de960100de9601001a00000000000000000000000000703400006173736574732f536f6e6e656e626c756d652f7265732e62696e504b01020a000a0000080000b486c246b79239b368000000680000002e0000000000000000000000000086cb01006173736574732f536f6e6e656e626c756d652f7a795f636f6d6d6f6e5f636f6e6669675f6c6f63616c2e64617461504b01020a000a0000080000b486c2462afeb5633d0000003d00000031000000000000000000000000003acc01006173736574732f536f6e6e656e626c756d652f7a795f636f6d6d6f6e5f636f6e6669675f736e6f77666973682e64617461504b01021400140008080800b486c246853aa0b676e90000f80402002f00000000000000000000000000"
+      },
+      {
+        "name": "/data/app/com.yr.sx-1.apk",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 15.866215,
+        "tid": 705617216,
+        "data": "\u0000\u0000"
+      },
+      {
+        "name": "/proc/846/net/if_inet6",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 3.540223,
+        "tid": 1073870640,
+        "data": "00000000000000000000000000000001 01 80 10 80       lo\nfe80000000000000505400fffe123456 02 40 20 80     eth0\n"
+      },
+      {
+        "name": "/data/app/com.yr.sx-1.apk",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 0.234725,
+        "tid": 1073870640,
+        "data": "504b050600000000bf00bf00743c000074c81d000000504b010214001400080808000570c546fc1ea63c9a1700001f4100001400000000000000000000000000000000004d4554412d494e462f4d414e49464553542e4d46504b010214001400080808000670c546d67ff89407180000984100000f00000000000000000000000000dc1700004d4554412d494e462f5a5a572e5346504b010214001400080808000670c546a2df8b3f12040000ee0400001000000000000000000000000000203000004d4554412d494e462f5a5a572e525341504b01020a000a0000080000b486c2461e2febb8de960100de9601001a00000000000000000000000000703400006173736574732f536f6e6e656e626c756d652f7265732e62696e504b01020a000a0000080000b486c246b79239b368000000680000002e0000000000000000000000000086cb01006173736574732f536f6e6e656e626c756d652f7a795f636f6d6d6f6e5f636f6e6669675f6c6f63616c2e64617461504b01020a000a0000080000b486c2462afeb5633d0000003d00000031000000000000000000000000003acc01006173736574732f536f6e6e656e626c756d652f7a795f636f6d6d6f6e5f636f6e6669675f736e6f77666973682e64617461504b01021400140008080800b486c246853aa0b676e90000f80402002f00000000000000000000000000"
+      },
+      {
+        "name": "/data/app/com.yr.sx-1.apk",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 23.505013,
+        "tid": 705617216,
+        "data": "504b03040a0000080000556cb946000000000000000000000000090004004d4554412d494e462ffeca0000504b03040a0000080800546cb94671c4bf185900000067000000140000004d4554412d494e462f4d414e49464553542e4d46f34dcccb4c4b2d2ed10d4b2d2acecccfb35230d433e0e572cc4312712c484cce4855008a01252df48c79b99c8b52134b5253749d2aadc04206f14606ba4946660a1afe4589c939a90acef94505f945892540fd9abc5cbc5c00504b03040a00000808005c67b946a947769e040000000200000008000000434f4d502e56455233330500504b03040a0000080800556cb946dd4b393cd3940100cc7f03000b000000636c61737365732e646578849d077c54c5fbf567b62421045842111030092df4000141414251ba52420d202288460809127a176901044540400cbd187a557a952e22bd97d0420dbd26ff333367930bbfecfbe2e7eb79669ee93377eebdbb93a453e73ebe21152a8a492f0f17b99cebded2dabb827f2b5f72e7d17a4bdb84ba3aad5c7760b05d440b21fab408f517fc971371e3bc848edf2b85989b4f88e7d03d8142b4b00bd1b38a10dde12f1c2ec45da4993112694fdb44db7942e4df6d1305411028028a8332a002a8063e014d4004f80a4483be601018057e066bc001700c5c0249e019b0ff6d1359415ef01e0802a54008f8007c0cea82d5e02fb01dec05ff80"
+      },
+      {
+        "name": "/data/app/com.yr.sx-1.apk",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 22.056371,
+        "tid": 705617216,
+        "data": "0ffc038e8133e002480437c07df01ce4dd8fb682e9e004c879c026de018120045407e1200e6c07ff0179d0264a8232a03ce80162c15030128c0793c16f602eb802ae819be03e78085e0079c8267c4036901b140001a0082803de0761a016a8031a8356e00b10097a824160149800a68115200914fd07f3007e02674122b80d0000"
+      },
+      {
+        "name": "/data/app/com.yr.sx-1.apk",
+        "pid": 882,
+        "processname": "com.snowfish.a.a.bg",
+        "time": 15.433309,
+        "tid": 1073870640,
+        "data": "504b03040a0000080000556cb946000000000000000000000000090004004d4554412d494e462ffeca0000504b03040a0000080800546cb94671c4bf185900000067000000140000004d4554412d494e462f4d414e49464553542e4d46f34dcccb4c4b2d2ed10d4b2d2acecccfb35230d433e0e572cc4312712c484cce4855008a01252df48c79b99c8b52134b5253749d2aadc04206f14606ba4946660a1afe4589c939a90acef94505f945892540fd9abc5cbc5c00504b03040a00000808005c67b946a947769e040000000200000008000000434f4d502e56455233330500504b03040a0000080800556cb946dd4b393cd3940100cc7f03000b000000636c61737365732e646578849d077c54c5fbf567b62421045842111030092df4000141414251ba52420d202288460809127a176901044540400cbd187a557a952e22bd97d0420dbd26ff333367930bbfecfbe2e7eb79669ee93377eebdbb93a453e73ebe21152a8a492f0f17b99cebded2dabb827f2b5f72e7d17a4bdb84ba3aad5c7760b05d440b21fab408f517fc971371e3bc848edf2b85989b4f88e7d03d8142b4b00bd1b38a10dde12f1c2ec45da4993112694fdb44db7942e4df6d1305411028028a8332a002a8063e014d4004f80a4483be601018057e066bc001700c5c0249e019b0ff6d1359415ef01e0802a54008f8007c0cea82d5e02fb01dec05ff80"
+      },
+      {
+        "name": "/proc/meminfo",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 6.308608,
+        "tid": 1073870640,
+        "data": "MemTotal:         604776 kB\nMemFree:          346520 kB\nBuffers:               0 kB\nCached:           135196 kB\nSwapCached:            0 kB\nActive:           139028 kB\nInactive:         100740 kB\nActive(anon):     108240 kB\nInactive(anon):        0 kB\nActive(file):      30788 kB\nInactive(file):   100740 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:                 0 kB\nWriteback:             0 kB\nAnonPages:        104592 kB\nMapped:            48840 kB\nSlab:               6152 kB\nSReclaimable:       1636 kB\nSUnreclaim:         4516 kB\nPageTables:         5240 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      302388 kB\nCommitted_AS:    2485372 kB\nVmallocTotal:     360448 kB\nVmallocUsed:       27704 kB\nVmallocChunk:     322564 kB\n"
+      },
+      {
+        "name": "/sys/devices/virtual/net/sit0/ifindex",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 3.603327,
+        "tid": 1073870640,
+        "data": "3\n"
+      },
+      {
+        "name": "/sys/devices/platform/smc91x.0/net/eth0/ifindex",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 3.537705,
+        "tid": 1073870640,
+        "data": "2\n"
+      },
+      {
+        "name": "/data/app/com.yr.sx-1.apk",
+        "pid": 846,
+        "processname": "com.yr.sx",
+        "time": 4.103677,
+        "tid": 1073870640,
+        "data": "504b050600000000bf00bf00743c000074c81d000000504b010214001400080808000570c546fc1ea63c9a1700001f4100001400000000000000000000000000000000004d4554412d494e462f4d414e49464553542e4d46504b010214001400080808000670c546d67ff89407180000984100000f00000000000000000000000000dc1700004d4554412d494e462f5a5a572e5346504b010214001400080808000670c546a2df8b3f12040000ee0400001000000000000000000000000000203000004d4554412d494e462f5a5a572e525341504b01020a000a0000080000b486c2461e2febb8de960100de9601001a00000000000000000000000000703400006173736574732f536f6e6e656e626c756d652f7265732e62696e504b01020a000a0000080000b486c246b79239b368000000680000002e0000000000000000000000000086cb01006173736574732f536f6e6e656e626c756d652f7a795f636f6d6d6f6e5f636f6e6669675f6c6f63616c2e64617461504b01020a000a0000080000b486c2462afeb5633d0000003d00000031000000000000000000000000003acc01006173736574732f536f6e6e656e626c756d652f7a795f636f6d6d6f6e5f636f6e6669675f736e6f77666973682e64617461504b01021400140008080800b486c246853aa0b676e90000f80402002f00000000000000000000000000"
+      }
+    ],
+    "sendsms": []
+  },
+  "sha256": "0006a38d4e251a28f57d442ef11efcc4c82491c75788594dc7ea6b76874696da"
+}

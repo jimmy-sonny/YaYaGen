@@ -1,0 +1,33 @@
+{
+  "ATTRIBUTE_VALUES": {
+    "androguard.activity": 150,
+    "androguard.api_key": 50,
+    "androguard.app_name": 100,
+    "androguard.certificate.issuer": 100,
+    "androguard.certificate.sha1": 150,
+    "androguard.certificate.subject": 100,
+    "androguard.displayed_version": 10,
+    "androguard.filter": 150,
+    "androguard.filter_standard": 10,
+    "androguard.functionality": 15,
+    "androguard.main_activity": 50,
+    "androguard.max_sdk": 10,
+    "androguard.min_sdk": 10,
+    "androguard.package_name": 100,
+    "androguard.permission_dangerous_value": 80,
+    "androguard.permission_non_standard_value": 50,
+    "androguard.permission_normal_value": 7,
+    "androguard.permission_not_third_party_value": 50,
+    "androguard.permission_system_value": 80,
+    "androguard.permission_wrong_value": 150,
+    "androguard.provider": 80,
+    "androguard.receiver": 100,
+    "androguard.service": 150,
+    "androguard.target_sdk": 10,
+    "androguard.url": 200,
+    "cuckoo.network.dns_lookup": 100,
+    "cuckoo.network.http_request": 100
+  },
+  "THRESHOLD": 450,
+  "UPPER_THRESHOLD": 800
+}

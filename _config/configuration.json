@@ -1,0 +1,19 @@
+{
+    "CUCKOO_SUPPORT" : true,
+    
+    "PERMISSION_NORMAL_SET" : "_android_permissions/normal.wb", 
+    "PERMISSION_DANGEROUS_SET" : "_android_permissions/dangerous.wb", 
+    "PERMISSION_NOT_THIRD_PARTY_SET" : "_android_permissions/not_third_party.wb", 
+    "PERMISSION_SYSTEM_SET" : "_android_permissions/system.wb", 
+    
+    "INTENT_ACTIVITY_SET" : "_android_intent_filters/activity_actions.wb", 
+    "INTENT_BROADCAST_SET" : "_android_intent_filters/broadcast_actions.wb", 
+    "INTENT_CATEGORIES_SET" : "_android_intent_filters/categories.wb", 
+    "INTENT_FEATURES_SET" : "_android_intent_filters/features.wb", 
+
+    "RULE_VALUES" : "_config/values.json",
+    "REPORT_KEYWORDS" : "_config/keywords.json",
+
+    "DOMAINS_WHITELIST" : "_top_domains/top-1m.pickle",
+    "TOP_DOMAINS_CACHE" : "_top_domains/cache_file"
+}
