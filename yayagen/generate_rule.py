@@ -31,7 +31,7 @@ def optimize_and_save(reports, rules, outputdir, rulename, comment, args):
         if rule.evaluate() < YaraRule.values['THRESHOLD']:
             log.critical("YaraRule WEIGHT %d < THRESHOLD!" % rule.evaluate())
 
-        rulename += ": rule%d" % count
+        rulename = ": rule%d" % count
         rule.print_rule_stat(reports)
         yar_original = rule.to_yar_format(rulename, comment)
         print(yar_original)
