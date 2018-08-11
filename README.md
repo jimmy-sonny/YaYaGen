@@ -170,6 +170,6 @@ twitter: [@_S0nn1_](https://twitter.com/_S0nn1_)
 
 **Copyright © 2017 [Andrea Marcelli](https://jimmy-sonny.github.io/) & [Giovanni Squillero](http://staff.polito.it/giovanni.squillero/).**
 
-Thanks to the whole Hispasec team, [@entdark_](https://twitter.com/entdark_?lang=es), and [@plusvic](https://twitter.com/plusvic?lang=es) for their support and insightful comments.
+Thanks to the whole Hispasec team, [@plutec_net](https://twitter.com/plutec_net), [@entdark_](https://twitter.com/entdark_?lang=es), and [@plusvic](https://twitter.com/plusvic?lang=es) for their support and insightful comments.
 
 *YaYaGen* is licensed under the 2-Clause BSD License ([BSD-2-Clause](https://opensource.org/licenses/BSD-2-Clause)).
