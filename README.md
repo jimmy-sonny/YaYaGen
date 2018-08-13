@@ -19,7 +19,7 @@ YaYaGen is in [Las Vegas](https://jimmy-sonny.github.io/LasVegas18/)!
 
 *YaYaGen* is an automatic procedure, that starts from a set of *Koodous* reports ([example](_sample_analysis_json/0001eaa3e2045867d857e6b7c837f3476fb1f659fbe4eda9b1f25af15b132475.json)), either identified as a malware family, or by any other mean, and eventually produces a signature in the form of a [YARA](https://virustotal.github.io/yara/) rule that can be seamlessly used in [Koodous](https://koodous.com/). YaYaGen analyzes the reports of the target applications, extract the analysis attributes, and identifies an optimal attribute subsets that are able to match all the targets; moreover, thanks to a heuristic measure, the generated signature has a limited risk of detecting false positive in the future, yet it is general enough to catch future threats.
 
-The alghoritm is originally described in "Countering Android Malware: a Scalable Semi-Supervised Approach for Family-Signature Generation" (DOI: [N/A](), article under review).
+The algorithm is originally described in "Countering Android Malware: a Scalable Semi-Supervised Approach for Family-Signature Generation" (DOI: [N/A](), article under review).
 
 ### Install
 
@@ -96,7 +96,7 @@ YaYaGen accepts Koodous JSON reports both by specifying a directory through the 
 YaYaGen builds each Yara rule by selecting a suitable set of clauses, then picks a subset of them of variable size to build an optimal family signature.
 The current implementation provides two possible algorithms:
 * *greedy*: select the clauses using a greedy algorithm
-* *clot*: select the clauses using a dynamic greedy algorithm *[best chioce]*
+* *clot*: select the clauses using a dynamic greedy algorithm *[best choice]*
 
 and two possibile rule optimization strategies:
 * *basic*: random based
@@ -104,7 +104,7 @@ and two possibile rule optimization strategies:
 
 YaYaGen uses several configuration files to set various options. The [configuration.json](_config/configuration.json) allows to enable Cuckoo support, specify Permission and Intent filters list, *keywords* and *values* files. [keywords.json](_config/keywords.json) is used at the preprocessing of the Koodous json reports to select which literal consider during the rule generation process, while [values.json](_config/values.json) is used to specify the weight of each literal.
 
-Since urls and ip addresses are very effective in detecting malicious samples, they are filtered and checked for maliciousness before beeing included in the set of literals used for the rule generation. The module incharged of preprocessing them is the [url_checker.py](yayagen/url_checker.py), which firstly filters common urls using the Alexa Top 1 million list ([alexa](_top_domains/top-1m.csv)), and then uses Virus Total API to check the domain for malicious traffic. Results are cached in a SQLite DB (detections.sqlite3) created locally.
+Since urls and ip addresses are very effective in detecting malicious samples, they are filtered and checked for maliciousness before being included in the set of literals used for the rule generation. The module in charge of preprocessing them is the [url_checker.py](yayagen/url_checker.py), which firstly filters common urls using the Alexa Top 1 million list ([alexa](_top_domains/top-1m.csv)), and then uses Virus Total API to check the domain for malicious traffic. Results are cached in a SQLite DB (detections.sqlite3) created locally.
 
 
 ### Examples
