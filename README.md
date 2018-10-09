@@ -19,7 +19,7 @@ YaYaGen is in [Las Vegas](https://jimmy-sonny.github.io/LasVegas18/)!
 
 *YaYaGen* is an automatic procedure, that starts from a set of *Koodous* reports ([example](_sample_analysis_json/0001eaa3e2045867d857e6b7c837f3476fb1f659fbe4eda9b1f25af15b132475.json)), either identified as a malware family, or by any other mean, and eventually produces a signature in the form of a [YARA](https://virustotal.github.io/yara/) rule that can be seamlessly used in [Koodous](https://koodous.com/). YaYaGen analyzes the reports of the target applications, extract the analysis attributes, and identifies an optimal attribute subsets that are able to match all the targets; moreover, thanks to a heuristic measure, the generated signature has a limited risk of detecting false positive in the future, yet it is general enough to catch future threats.
 
-The algorithm is originally described in "Countering Android Malware: a Scalable Semi-Supervised Approach for Family-Signature Generation" (DOI: [N/A](), article under review).
+The algorithm is originally described in "Countering Android Malware: a Scalable Semi-Supervised Approach for Family-Signature Generation" (DOI: [10.1109/ACCESS.2018.2874502](https://ieeexplore.ieee.org/document/8485352), article under review).
 
 ### Install
 
